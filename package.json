@@ -1,6 +1,6 @@
 {
   "name": "react-use-iframe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react iFrame hook",
   "author": "marcoSven",
   "license": "MIT",
@@ -22,9 +22,6 @@
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
-  },
-  "peerDependencies": {
-    "react": "^16.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
